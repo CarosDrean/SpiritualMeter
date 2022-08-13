@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E15C643028A82AAB001B7365 /* SpiritualMeterApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E15C642F28A82AAB001B7365 /* SpiritualMeterApp.swift */; };
+		E15C643228A82AAB001B7365 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E15C643128A82AAB001B7365 /* ContentView.swift */; };
+		E15C643428A82AAE001B7365 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E15C643328A82AAE001B7365 /* Assets.xcassets */; };
+		E15C643728A82AAE001B7365 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E15C643628A82AAE001B7365 /* Preview Assets.xcassets */; };
+		E15C644128A82AAE001B7365 /* SpiritualMeterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E15C644028A82AAE001B7365 /* SpiritualMeterTests.swift */; };
+		E15C644B28A82AAE001B7365 /* SpiritualMeterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E15C644A28A82AAE001B7365 /* SpiritualMeterUITests.swift */; };
+		E15C644D28A82AAE001B7365 /* SpiritualMeterUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E15C644C28A82AAE001B7365 /* SpiritualMeterUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E15C643D28A82AAE001B7365 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E15C642428A82AAB001B7365 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E15C642B28A82AAB001B7365;
+			remoteInfo = SpiritualMeter;
+		};
+		E15C644728A82AAE001B7365 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E15C642428A82AAB001B7365 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E15C642B28A82AAB001B7365;
+			remoteInfo = SpiritualMeter;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E15C642C28A82AAB001B7365 /* SpiritualMeter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpiritualMeter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E15C642F28A82AAB001B7365 /* SpiritualMeterApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpiritualMeterApp.swift; sourceTree = "<group>"; };
+		E15C643128A82AAB001B7365 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E15C643328A82AAE001B7365 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E15C643628A82AAE001B7365 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E15C643C28A82AAE001B7365 /* SpiritualMeterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpiritualMeterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E15C644028A82AAE001B7365 /* SpiritualMeterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpiritualMeterTests.swift; sourceTree = "<group>"; };
+		E15C644628A82AAE001B7365 /* SpiritualMeterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpiritualMeterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E15C644A28A82AAE001B7365 /* SpiritualMeterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpiritualMeterUITests.swift; sourceTree = "<group>"; };
+		E15C644C28A82AAE001B7365 /* SpiritualMeterUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpiritualMeterUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E15C642928A82AAB001B7365 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E15C643928A82AAE001B7365 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E15C644328A82AAE001B7365 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E15C642328A82AAB001B7365 = {
+			isa = PBXGroup;
+			children = (
+				E15C642E28A82AAB001B7365 /* SpiritualMeter */,
+				E15C643F28A82AAE001B7365 /* SpiritualMeterTests */,
+				E15C644928A82AAE001B7365 /* SpiritualMeterUITests */,
+				E15C642D28A82AAB001B7365 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E15C642D28A82AAB001B7365 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E15C642C28A82AAB001B7365 /* SpiritualMeter.app */,
+				E15C643C28A82AAE001B7365 /* SpiritualMeterTests.xctest */,
+				E15C644628A82AAE001B7365 /* SpiritualMeterUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E15C642E28A82AAB001B7365 /* SpiritualMeter */ = {
+			isa = PBXGroup;
+			children = (
+				E15C642F28A82AAB001B7365 /* SpiritualMeterApp.swift */,
+				E15C643128A82AAB001B7365 /* ContentView.swift */,
+				E15C643328A82AAE001B7365 /* Assets.xcassets */,
+				E15C643528A82AAE001B7365 /* Preview Content */,
+			);
+			path = SpiritualMeter;
+			sourceTree = "<group>";
+		};
+		E15C643528A82AAE001B7365 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				E15C643628A82AAE001B7365 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E15C643F28A82AAE001B7365 /* SpiritualMeterTests */ = {
+			isa = PBXGroup;
+			children = (
+				E15C644028A82AAE001B7365 /* SpiritualMeterTests.swift */,
+			);
+			path = SpiritualMeterTests;
+			sourceTree = "<group>";
+		};
+		E15C644928A82AAE001B7365 /* SpiritualMeterUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E15C644A28A82AAE001B7365 /* SpiritualMeterUITests.swift */,
+				E15C644C28A82AAE001B7365 /* SpiritualMeterUITestsLaunchTests.swift */,
+			);
+			path = SpiritualMeterUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E15C642B28A82AAB001B7365 /* SpiritualMeter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E15C645028A82AAE001B7365 /* Build configuration list for PBXNativeTarget "SpiritualMeter" */;
+			buildPhases = (
+				E15C642828A82AAB001B7365 /* Sources */,
+				E15C642928A82AAB001B7365 /* Frameworks */,
+				E15C642A28A82AAB001B7365 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SpiritualMeter;
+			productName = SpiritualMeter;
+			productReference = E15C642C28A82AAB001B7365 /* SpiritualMeter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E15C643B28A82AAE001B7365 /* SpiritualMeterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E15C645328A82AAE001B7365 /* Build configuration list for PBXNativeTarget "SpiritualMeterTests" */;
+			buildPhases = (
+				E15C643828A82AAE001B7365 /* Sources */,
+				E15C643928A82AAE001B7365 /* Frameworks */,
+				E15C643A28A82AAE001B7365 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E15C643E28A82AAE001B7365 /* PBXTargetDependency */,
+			);
+			name = SpiritualMeterTests;
+			productName = SpiritualMeterTests;
+			productReference = E15C643C28A82AAE001B7365 /* SpiritualMeterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E15C644528A82AAE001B7365 /* SpiritualMeterUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E15C645628A82AAE001B7365 /* Build configuration list for PBXNativeTarget "SpiritualMeterUITests" */;
+			buildPhases = (
+				E15C644228A82AAE001B7365 /* Sources */,
+				E15C644328A82AAE001B7365 /* Frameworks */,
+				E15C644428A82AAE001B7365 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E15C644828A82AAE001B7365 /* PBXTargetDependency */,
+			);
+			name = SpiritualMeterUITests;
+			productName = SpiritualMeterUITests;
+			productReference = E15C644628A82AAE001B7365 /* SpiritualMeterUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E15C642428A82AAB001B7365 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					E15C642B28A82AAB001B7365 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					E15C643B28A82AAE001B7365 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = E15C642B28A82AAB001B7365;
+					};
+					E15C644528A82AAE001B7365 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = E15C642B28A82AAB001B7365;
+					};
+				};
+			};
+			buildConfigurationList = E15C642728A82AAB001B7365 /* Build configuration list for PBXProject "SpiritualMeter" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E15C642328A82AAB001B7365;
+			productRefGroup = E15C642D28A82AAB001B7365 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E15C642B28A82AAB001B7365 /* SpiritualMeter */,
+				E15C643B28A82AAE001B7365 /* SpiritualMeterTests */,
+				E15C644528A82AAE001B7365 /* SpiritualMeterUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E15C642A28A82AAB001B7365 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E15C643728A82AAE001B7365 /* Preview Assets.xcassets in Resources */,
+				E15C643428A82AAE001B7365 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E15C643A28A82AAE001B7365 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E15C644428A82AAE001B7365 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E15C642828A82AAB001B7365 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E15C643228A82AAB001B7365 /* ContentView.swift in Sources */,
+				E15C643028A82AAB001B7365 /* SpiritualMeterApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E15C643828A82AAE001B7365 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E15C644128A82AAE001B7365 /* SpiritualMeterTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E15C644228A82AAE001B7365 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E15C644D28A82AAE001B7365 /* SpiritualMeterUITestsLaunchTests.swift in Sources */,
+				E15C644B28A82AAE001B7365 /* SpiritualMeterUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E15C643E28A82AAE001B7365 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E15C642B28A82AAB001B7365 /* SpiritualMeter */;
+			targetProxy = E15C643D28A82AAE001B7365 /* PBXContainerItemProxy */;
+		};
+		E15C644828A82AAE001B7365 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E15C642B28A82AAB001B7365 /* SpiritualMeter */;
+			targetProxy = E15C644728A82AAE001B7365 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		E15C644E28A82AAE001B7365 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E15C644F28A82AAE001B7365 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E15C645128A82AAE001B7365 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SpiritualMeter/Preview Content\"";
+				DEVELOPMENT_TEAM = F28VVP2L6Z;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = xyz.carosdrean.SpiritualMeter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E15C645228A82AAE001B7365 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SpiritualMeter/Preview Content\"";
+				DEVELOPMENT_TEAM = F28VVP2L6Z;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = xyz.carosdrean.SpiritualMeter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E15C645428A82AAE001B7365 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F28VVP2L6Z;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = xyz.carosdrean.SpiritualMeterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SpiritualMeter.app/SpiritualMeter";
+			};
+			name = Debug;
+		};
+		E15C645528A82AAE001B7365 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F28VVP2L6Z;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = xyz.carosdrean.SpiritualMeterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SpiritualMeter.app/SpiritualMeter";
+			};
+			name = Release;
+		};
+		E15C645728A82AAE001B7365 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F28VVP2L6Z;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = xyz.carosdrean.SpiritualMeterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SpiritualMeter;
+			};
+			name = Debug;
+		};
+		E15C645828A82AAE001B7365 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F28VVP2L6Z;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = xyz.carosdrean.SpiritualMeterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SpiritualMeter;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E15C642728A82AAB001B7365 /* Build configuration list for PBXProject "SpiritualMeter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E15C644E28A82AAE001B7365 /* Debug */,
+				E15C644F28A82AAE001B7365 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E15C645028A82AAE001B7365 /* Build configuration list for PBXNativeTarget "SpiritualMeter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E15C645128A82AAE001B7365 /* Debug */,
+				E15C645228A82AAE001B7365 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E15C645328A82AAE001B7365 /* Build configuration list for PBXNativeTarget "SpiritualMeterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E15C645428A82AAE001B7365 /* Debug */,
+				E15C645528A82AAE001B7365 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E15C645628A82AAE001B7365 /* Build configuration list for PBXNativeTarget "SpiritualMeterUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E15C645728A82AAE001B7365 /* Debug */,
+				E15C645828A82AAE001B7365 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E15C642428A82AAB001B7365 /* Project object */;
+}
