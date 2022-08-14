@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E112AA1928A990F200A77B5F /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E112AA1828A990F200A77B5F /* HomeView.swift */; };
+		E112AA1D28A9915A00A77B5F /* SettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E112AA1C28A9915A00A77B5F /* SettingView.swift */; };
+		E112AA1F28A9917F00A77B5F /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E112AA1E28A9917F00A77B5F /* RegisterView.swift */; };
 		E15C643028A82AAB001B7365 /* SpiritualMeterApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E15C642F28A82AAB001B7365 /* SpiritualMeterApp.swift */; };
 		E15C643228A82AAB001B7365 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E15C643128A82AAB001B7365 /* ContentView.swift */; };
 		E15C643428A82AAE001B7365 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E15C643328A82AAE001B7365 /* Assets.xcassets */; };
@@ -34,6 +37,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E112AA1828A990F200A77B5F /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		E112AA1C28A9915A00A77B5F /* SettingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingView.swift; sourceTree = "<group>"; };
+		E112AA1E28A9917F00A77B5F /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
 		E15C642C28A82AAB001B7365 /* SpiritualMeter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpiritualMeter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E15C642F28A82AAB001B7365 /* SpiritualMeterApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpiritualMeterApp.swift; sourceTree = "<group>"; };
 		E15C643128A82AAB001B7365 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -71,6 +77,40 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E112AA1628A98FFE00A77B5F /* UseCases */ = {
+			isa = PBXGroup;
+			children = (
+				E112AA1B28A9914900A77B5F /* Setting */,
+				E112AA1A28A9914100A77B5F /* Register */,
+				E112AA1728A990E500A77B5F /* Home */,
+			);
+			path = UseCases;
+			sourceTree = "<group>";
+		};
+		E112AA1728A990E500A77B5F /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				E112AA1828A990F200A77B5F /* HomeView.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		E112AA1A28A9914100A77B5F /* Register */ = {
+			isa = PBXGroup;
+			children = (
+				E112AA1E28A9917F00A77B5F /* RegisterView.swift */,
+			);
+			path = Register;
+			sourceTree = "<group>";
+		};
+		E112AA1B28A9914900A77B5F /* Setting */ = {
+			isa = PBXGroup;
+			children = (
+				E112AA1C28A9915A00A77B5F /* SettingView.swift */,
+			);
+			path = Setting;
+			sourceTree = "<group>";
+		};
 		E15C642328A82AAB001B7365 = {
 			isa = PBXGroup;
 			children = (
@@ -94,6 +134,7 @@
 		E15C642E28A82AAB001B7365 /* SpiritualMeter */ = {
 			isa = PBXGroup;
 			children = (
+				E112AA1628A98FFE00A77B5F /* UseCases */,
 				E15C642F28A82AAB001B7365 /* SpiritualMeterApp.swift */,
 				E15C643128A82AAB001B7365 /* ContentView.swift */,
 				E15C643328A82AAE001B7365 /* Assets.xcassets */,
@@ -257,6 +298,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E112AA1928A990F200A77B5F /* HomeView.swift in Sources */,
+				E112AA1F28A9917F00A77B5F /* RegisterView.swift in Sources */,
+				E112AA1D28A9915A00A77B5F /* SettingView.swift in Sources */,
 				E15C643228A82AAB001B7365 /* ContentView.swift in Sources */,
 				E15C643028A82AAB001B7365 /* SpiritualMeterApp.swift in Sources */,
 			);
